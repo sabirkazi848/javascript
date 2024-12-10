@@ -1,7 +1,7 @@
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const words = ["Apple", "Banana", "Strawberry", "Grape", "Spinach", "Orange"];
 
-const even = numbers.filter((number) => {
-  return number % 2 == 0;
+const result = words.filter((word) => {
+  return word[0] == "S";
 });
 
-console.log(even);
+console.log(result);
