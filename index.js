@@ -32,10 +32,10 @@ const products = [
   { name: "Jacket", price: 80 },
 ];
 
-const r = products.map((product) => ({
-  ...product,
-  tax: product.price * 0.1,
-}));
+// const r = products.map((product) => ({
+//   ...product,
+//   tax: product.price * 0.1,
+// }));
 
 // 6. Create an Array of Lengths of Strings
 const words2 = ["apple", "banana", "cherry"];
@@ -63,16 +63,3 @@ const people2 = [
   { firstName: "Charlie", lastName: "Brown", age: 35 },
 ];
 
-// 12. Round Numbers to Two Decimal Places
-const numbers5 = [1.2345, 2.6789, 3.14159, 4.9876];
-
-// 13. Create a New Array with Prefix Added to Strings
-const names = ["Alice", "Bob", "Charlie"];
-
-// 14. Filter and Transform Data in One Step
-const numbers6 = [1, 2, 3, 4, 5];
-
-// 15. Create an Array of Even or Odd Flags
-const numbers7 = [1, 2, 3, 4, 5, 6];
-
-console.log(r);
