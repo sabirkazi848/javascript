@@ -1,7 +1,12 @@
-const words = ["Apple", "Banana", "Strawberry", "Grape", "Spinach", "Orange"];
+const users = [
+  { name: "Alice", isActive: true },
+  { name: "Bob", isActive: false },
+  { name: "Charlie", isActive: true },
+  { name: "David", isActive: false },
+];
 
-const result = words.filter((word) => {
-  return word[0] == "S";
+const result = users.filter((user) => {
+  return user["isActive"];
 });
 
 console.log(result);
