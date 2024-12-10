@@ -1,12 +1,6 @@
-const products = [
-  { name: "Laptop", price: 1200 },
-  { name: "Smartphone", price: 400 },
-  { name: "Tablet", price: 250 },
-  { name: "Monitor", price: 300 },
-];
+const strings = ["apple", "banana", "cat", "dog", "elephant"];
 
-const result = products.filter((product) => {
-  return product["price"] >= 100 && product["price"] <= 500;
+const result = strings.filter((string) => {
+  return string.length > 5;
 });
-
 console.log(result);
