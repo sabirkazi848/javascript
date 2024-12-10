@@ -1,6 +1,10 @@
 // 1. Multiply Each Number by 2
 const numbers1 = [1, 2, 3, 4, 5];
 
+const r = numbers1.map((number) => {
+  return number * 2;
+});
+
 // 2. Convert Strings to Uppercase
 const words = ["apple", "banana", "grape", "orange"];
 
@@ -58,3 +62,5 @@ const numbers6 = [1, 2, 3, 4, 5];
 
 // 15. Create an Array of Even or Odd Flags
 const numbers7 = [1, 2, 3, 4, 5, 6];
+
+console.log(r);
