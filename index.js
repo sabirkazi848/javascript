@@ -21,16 +21,21 @@ const people1 = [
 //   return `${people["firstName"]} ${people["lastName"]}`;
 // });
 // 4. Square Each Number
-const numbers2 = [1, 2, 3, 4, 5];
-const r = numbers2.map((number) => {
-  return number ** number;
-});
+// const numbers2 = [1, 2, 3, 4, 5];
+// const r = numbers2.map((number) => {
+//   return number ** number;
+// });
 // 5. Add a Property to Each Object
 const products = [
   { name: "Shirt", price: 30 },
   { name: "Jeans", price: 50 },
   { name: "Jacket", price: 80 },
 ];
+
+const r = products.map((product) => ({
+  ...product,
+  tax: product.price * 0.1,
+}));
 
 // 6. Create an Array of Lengths of Strings
 const words2 = ["apple", "banana", "cherry"];
