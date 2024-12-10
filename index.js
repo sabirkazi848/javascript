@@ -17,12 +17,14 @@ const people1 = [
   { firstName: "Mike", lastName: "Johnson" },
 ];
 
-const r = people1.map((people) => {
-  return `${people["firstName"]} ${people["lastName"]}`;
-});
+// const r = people1.map((people) => {
+//   return `${people["firstName"]} ${people["lastName"]}`;
+// });
 // 4. Square Each Number
 const numbers2 = [1, 2, 3, 4, 5];
-
+const r = numbers2.map((number) => {
+  return number ** number;
+});
 // 5. Add a Property to Each Object
 const products = [
   { name: "Shirt", price: 30 },
