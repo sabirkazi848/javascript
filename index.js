@@ -1,13 +1,15 @@
 // 1. Multiply Each Number by 2
 const numbers1 = [1, 2, 3, 4, 5];
 
-const r = numbers1.map((number) => {
-  return number * 2;
-});
+// const r = numbers1.map((number) => {
+//   return number * 2;
+// });
 
 // 2. Convert Strings to Uppercase
 const words = ["apple", "banana", "grape", "orange"];
-
+const r = words.map((word) => {
+  return word.toUpperCase();
+});
 // 3. Extract Full Names from Objects
 const people1 = [
   { firstName: "John", lastName: "Doe" },
