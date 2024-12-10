@@ -7,9 +7,9 @@ const numbers1 = [1, 2, 3, 4, 5];
 
 // 2. Convert Strings to Uppercase
 const words = ["apple", "banana", "grape", "orange"];
-const r = words.map((word) => {
-  return word.toUpperCase();
-});
+// const r = words.map((word) => {
+//   return word.toUpperCase();
+// });
 // 3. Extract Full Names from Objects
 const people1 = [
   { firstName: "John", lastName: "Doe" },
@@ -17,6 +17,9 @@ const people1 = [
   { firstName: "Mike", lastName: "Johnson" },
 ];
 
+const r = people1.map((people) => {
+  return `${people["firstName"]} ${people["lastName"]}`;
+});
 // 4. Square Each Number
 const numbers2 = [1, 2, 3, 4, 5];
 
